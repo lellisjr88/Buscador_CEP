@@ -6,13 +6,13 @@ import api from './services/api.js'
 
 function App() {
 
-  //Pegar os dados do usuário no input
+  {/*Pegar os dados do usuário no input*/}
   const [input,setInput] = useState('')
 
-  //Pegar os dados da api e renderizar na tela do usuário
+  {/*Pegar os dados da api e renderizar na tela do usuário*/}
   const [cep, setCep] = useState({})
 
-  //Verificação para saber se o usuário digitou algo no input e consumo da api
+  {/*Verificação para saber se o usuário digitou algo no input e consumo da api*/}
   async function handleSearch() {
     if (input === "") {
       alert('Preencha algum CEP!')
